@@ -5,7 +5,6 @@ module.exports = {
   coverageDirectory: 'coverage',
   coverageProvider: 'babel',
   testEnvironment: 'node',
-  preset: '@shelf/jest-mongodb',
   transform: { // Transformar para TS na compilação
     '.+\\.ts$': 'ts-jest'
   }
